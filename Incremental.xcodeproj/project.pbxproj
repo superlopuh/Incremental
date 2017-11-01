@@ -15,6 +15,29 @@
 		8933C78E1EB5B82C000D00A4 /* IncrementalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* IncrementalTests.swift */; };
 		8933C78F1EB5B82C000D00A4 /* IncrementalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* IncrementalTests.swift */; };
 		8933C7901EB5B82D000D00A4 /* IncrementalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* IncrementalTests.swift */; };
+		D9EAD7681FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
+		D9EAD7691FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
+		D9EAD76A1FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
+		D9EAD76B1FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
+		D9EAD76D1FAA0EE80047F48F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD76C1FAA0EE80047F48F /* Node.swift */; };
+		D9EAD76E1FAA0EE80047F48F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD76C1FAA0EE80047F48F /* Node.swift */; };
+		D9EAD76F1FAA0EE80047F48F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD76C1FAA0EE80047F48F /* Node.swift */; };
+		D9EAD7701FAA0EE80047F48F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD76C1FAA0EE80047F48F /* Node.swift */; };
+		D9EAD7721FAA0F4A0047F48F /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7711FAA0F4A0047F48F /* Input.swift */; };
+		D9EAD7731FAA0F4A0047F48F /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7711FAA0F4A0047F48F /* Input.swift */; };
+		D9EAD7741FAA0F4A0047F48F /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7711FAA0F4A0047F48F /* Input.swift */; };
+		D9EAD7751FAA0F4A0047F48F /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7711FAA0F4A0047F48F /* Input.swift */; };
+		D9EAD7771FAA0F5E0047F48F /* BucketQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7761FAA0F5E0047F48F /* BucketQueue.swift */; };
+		D9EAD7781FAA0F5E0047F48F /* BucketQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7761FAA0F5E0047F48F /* BucketQueue.swift */; };
+		D9EAD7791FAA0F5E0047F48F /* BucketQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7761FAA0F5E0047F48F /* BucketQueue.swift */; };
+		D9EAD77A1FAA0F5E0047F48F /* BucketQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7761FAA0F5E0047F48F /* BucketQueue.swift */; };
+		D9EAD77C1FAA0F7F0047F48F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD77B1FAA0F7F0047F48F /* Observer.swift */; };
+		D9EAD77D1FAA0F7F0047F48F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD77B1FAA0F7F0047F48F /* Observer.swift */; };
+		D9EAD77E1FAA0F7F0047F48F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD77B1FAA0F7F0047F48F /* Observer.swift */; };
+		D9EAD77F1FAA0F7F0047F48F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD77B1FAA0F7F0047F48F /* Observer.swift */; };
+		D9EAD7811FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7801FAA0FF70047F48F /* IncrementalAverageTests.swift */; };
+		D9EAD7821FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7801FAA0FF70047F48F /* IncrementalAverageTests.swift */; };
+		D9EAD7831FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7801FAA0FF70047F48F /* IncrementalAverageTests.swift */; };
 		DD7502881C68FEDE006590AF /* Incremental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Incremental.framework */; };
 		DD7502921C690C7A006590AF /* Incremental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Incremental.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +76,12 @@
 		8933C7891EB5B82A000D00A4 /* IncrementalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncrementalTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* Incremental.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Incremental.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* IncrementalTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IncrementalTests.plist; sourceTree = "<group>"; };
+		D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueObjects.swift; sourceTree = "<group>"; };
+		D9EAD76C1FAA0EE80047F48F /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		D9EAD7711FAA0F4A0047F48F /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		D9EAD7761FAA0F5E0047F48F /* BucketQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketQueue.swift; sourceTree = "<group>"; };
+		D9EAD77B1FAA0F7F0047F48F /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		D9EAD7801FAA0FF70047F48F /* IncrementalAverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalAverageTests.swift; sourceTree = "<group>"; };
 		DD75027A1C68FCFC006590AF /* Incremental-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incremental-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD75028D1C690C7A006590AF /* Incremental-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incremental-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,7 +178,12 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D9EAD7761FAA0F5E0047F48F /* BucketQueue.swift */,
 				8933C7841EB5B820000D00A4 /* Incremental.swift */,
+				D9EAD7711FAA0F4A0047F48F /* Input.swift */,
+				D9EAD76C1FAA0EE80047F48F /* Node.swift */,
+				D9EAD77B1FAA0F7F0047F48F /* Observer.swift */,
+				D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -158,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				8933C7891EB5B82A000D00A4 /* IncrementalTests.swift */,
+				D9EAD7801FAA0FF70047F48F /* IncrementalAverageTests.swift */,
 			);
 			name = Tests;
 			path = Tests/IncrementalTests;
@@ -347,7 +382,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Incremental";
+				ORGANIZATIONNAME = Incremental;
 				TargetAttributes = {
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -459,7 +494,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD76D1FAA0EE80047F48F /* Node.swift in Sources */,
+				D9EAD77C1FAA0F7F0047F48F /* Observer.swift in Sources */,
 				8933C7851EB5B820000D00A4 /* Incremental.swift in Sources */,
+				D9EAD7771FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
+				D9EAD7721FAA0F4A0047F48F /* Input.swift in Sources */,
+				D9EAD7681FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD7811FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */,
 				8933C7901EB5B82D000D00A4 /* IncrementalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,7 +516,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD76F1FAA0EE80047F48F /* Node.swift in Sources */,
+				D9EAD77E1FAA0F7F0047F48F /* Observer.swift in Sources */,
 				8933C7871EB5B820000D00A4 /* Incremental.swift in Sources */,
+				D9EAD7791FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
+				D9EAD7741FAA0F4A0047F48F /* Input.swift in Sources */,
+				D9EAD76A1FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +529,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD7701FAA0EE80047F48F /* Node.swift in Sources */,
+				D9EAD77F1FAA0F7F0047F48F /* Observer.swift in Sources */,
 				8933C7881EB5B820000D00A4 /* Incremental.swift in Sources */,
+				D9EAD77A1FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
+				D9EAD7751FAA0F4A0047F48F /* Input.swift in Sources */,
+				D9EAD76B1FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +542,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD76E1FAA0EE80047F48F /* Node.swift in Sources */,
+				D9EAD77D1FAA0F7F0047F48F /* Observer.swift in Sources */,
 				8933C7861EB5B820000D00A4 /* Incremental.swift in Sources */,
+				D9EAD7781FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
+				D9EAD7731FAA0F4A0047F48F /* Input.swift in Sources */,
+				D9EAD7691FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD7821FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */,
 				8933C78F1EB5B82C000D00A4 /* IncrementalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD7831FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */,
 				8933C78E1EB5B82C000D00A4 /* IncrementalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -654,7 +712,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-iOS";
 				PRODUCT_NAME = Incremental;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -676,7 +734,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-iOS";
 				PRODUCT_NAME = Incremental;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -722,7 +780,7 @@
 				INFOPLIST_FILE = Configs/Incremental.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-watchOS";
 				PRODUCT_NAME = Incremental;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -744,7 +802,7 @@
 				INFOPLIST_FILE = Configs/Incremental.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-watchOS";
 				PRODUCT_NAME = Incremental;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -767,7 +825,7 @@
 				INFOPLIST_FILE = Configs/Incremental.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-tvOS";
 				PRODUCT_NAME = Incremental;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -789,7 +847,7 @@
 				INFOPLIST_FILE = Configs/Incremental.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-tvOS";
 				PRODUCT_NAME = Incremental;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -815,7 +873,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-macOS";
 				PRODUCT_NAME = Incremental;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -838,7 +896,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Incremental.Incremental-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lopoukhine.Incremental-macOS";
 				PRODUCT_NAME = Incremental;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
