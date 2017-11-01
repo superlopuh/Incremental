@@ -97,5 +97,7 @@ class IncrementalAverageTests: XCTestCase {
 
     static var allTests = [
         ("testIncrementalAverage", testIncrementalAverage),
+        ("testIncrementalAveragePerformance", testIncrementalAveragePerformance),
+        ("testStandardAveragePerformance", testStandardAveragePerformance),
     ]
 }
