@@ -6,13 +6,13 @@
 //  Copyright © 2017 Incremental. All rights reserved.
 //
 
-public struct BucketQueue<Value> {
+struct BucketQueue<Value> {
 
-    public private(set) var buckets: [[Value]] = []
+    private(set) var buckets: [[Value]] = []
 
-    public init() {}
+    init() {}
 
-    public mutating func insert(_ value: Value, at index: Int) {
+    mutating func insert(_ value: Value, at index: Int) {
         if buckets.count <= index {
             buckets.append(contentsOf: repeatElement([], count: index - buckets.count + 1))
         }
