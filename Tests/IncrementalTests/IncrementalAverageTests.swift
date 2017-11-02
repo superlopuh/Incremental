@@ -10,6 +10,9 @@ import Foundation
 import XCTest
 import Incremental
 
+// To suppress unused value warnings
+func touch<T>(_ value: T) {}
+
 func merge<Value>(_ elements: [Node<Value>], combine: @escaping (Value, Value) -> Value) -> Node<Value> {
     guard 1 < elements.count else { return elements[0] }
 
