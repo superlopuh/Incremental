@@ -56,7 +56,7 @@ Instead, we can try to reduce in parallel, adding the elements pairwise, like so
 ``` Swift
 // The array cannot be empty
 func merge<Value>(_ elements: [Node<Value>], combine: @escaping (Value, Value) -> Value) -> Node<Value> {
-	// There is only one element in the array
+    // There is only one element in the array
     guard 1 < elements.count else { return elements[0] }
 
     // Storage for merged nodes
