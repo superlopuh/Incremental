@@ -52,7 +52,9 @@ extension Incremental {
                 }
                 guard index == box.pseudoHeight else { insert(box); continue }
                 guard box.recomputeValue() else { continue }
-                box.higherNodes.forEach(insert)
+                for higherNode in box.getHigherNodes() {
+                    insert(higherNode)
+                }
             }
 
             index += 1

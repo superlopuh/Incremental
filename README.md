@@ -7,7 +7,6 @@ Inspired by [Jane Street's Incremental](https://blog.janestreet.com/introducing-
 ## TODO
 
 - [ ] Implement flatMap
-- [ ] Remove memory cycles
 - [ ] Add playground with examples
 - [ ] Only propagate input if output is observed
 

@@ -8,7 +8,7 @@
 
 public class NodeBase {
 
-    public var higherNodes: [NodeBase] = []
+    public var higherNodes: [WeakBox<NodeBase>] = []
 
     public var dirtyPseudoHeight = false
 
@@ -22,7 +22,19 @@ public class NodeBase {
     }
 
     public func addHigherNode(_ higherNode: NodeBase) {
-        higherNodes.append(higherNode)
+        higherNodes.append(WeakBox(higherNode))
+    }
+
+    func getHigherNodes() -> [NodeBase] {
+        var nonNil = [NodeBase]()
+        for index in (0 ..< higherNodes.count).reversed() {
+            guard let higherNode = higherNodes[index].value else {
+                higherNodes.remove(at: index)
+                continue
+            }
+            nonNil.append(higherNode)
+        }
+        return nonNil
     }
 
     public final func recomputePseudoHeight() {
@@ -33,7 +45,7 @@ public class NodeBase {
         guard pseudoHeight < childMax + 1 else { return }
 
         pseudoHeight = childMax + 1
-        for higherNode in higherNodes {
+        for higherNode in getHigherNodes() {
             higherNode.setPseudoHeightDirty()
         }
     }
