@@ -73,10 +73,22 @@ class IncrementalAverageTests: XCTestCase {
 
             let incrementals = inputs.map { $0.node }
 
-            let myAverage = average(incrementals)
+            let _ = average(incrementals)
+        }
+    }
 
-            for i in 0 ..< 1000 {
-                inputs[i].value = Double(i + 1)
+    func testIncrementalAverageUpdatePerformance() {
+        let inputs = (0 ..< 10000)
+            .map(Double.init)
+            .map(IncrementalInput.init)
+
+        let incrementals = inputs.map { $0.node }
+        let myAverage = average(incrementals)
+        touch(myAverage)
+
+        measure {
+            for i in 0 ..< 40 {
+                inputs[i].value = Double(i + 100)
             }
         }
     }
@@ -88,14 +100,8 @@ class IncrementalAverageTests: XCTestCase {
         }
 
         measure {
-            var numbers: [Double] = (0 ..< 10000).map(Double.init)
-
+            let numbers: [Double] = (0 ..< 10000).map(Double.init)
             let _ = average(numbers)
-
-            for i in 0 ..< 1000 {
-                numbers[i] = Double(i + 1)
-                let _ = average(numbers)
-            }
         }
     }
 
