@@ -32,13 +32,29 @@ extension Incremental {
 
 extension Incremental {
 
-    // Recomputes internal graph every time the result of the graph changes, rewrite
+    // As it stands, the pseudoheight of `node0` does not affect the pseudoheight of computed node
+    // This is only important if we stabilise manually after updating _values of inputs that lead to node0 and the computed dynamic graph
+    // TODO: investigate how to make sure that the outdated graph is not updated before node0
     public static func flatMap<Value0, NewValue>(_ node0: Node<Value0>, _ transform: @escaping (Value0) -> Node<NewValue>) -> Node<NewValue> {
+
+        let _node0 = map(node0, { $0 })
+
+        var recompute = true
+        let observer = _node0.observe { _ in
+            recompute = true
+        }
+
         var _intermediate: Node<NewValue>? = nil
         var _result: Node<NewValue>? = nil
 
         let result = Node<NewValue>(
-            computeValue: { [weak _result] in
+            computeValue: { [observer, weak _result] in
+                guard recompute else { return _intermediate!.value }
+                defer { recompute = false }
+
+                // TODO: investigate why capture list doesn't work
+                let _ = observer
+
                 let intermediate = transform(node0.value)
                 _intermediate = intermediate
                 if let result = _result {
@@ -46,10 +62,15 @@ extension Incremental {
                 }
                 return intermediate.value
             },
-            getMaxChildPseudoHeight: { _intermediate!.pseudoHeight }
+            getMaxChildPseudoHeight: {
+                return max(
+                    _intermediate!.pseudoHeight,
+                    _node0.pseudoHeight
+                )
+            }
         )
 
-        node0.addHigherNode(result)
+        _node0.addHigherNode(result)
 
         _result = result
         _intermediate!.addHigherNode(result)
