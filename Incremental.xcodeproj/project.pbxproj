@@ -18,6 +18,10 @@
 		D95FF76E1FAA1A270095845E /* UniqueObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF76D1FAA1A270095845E /* UniqueObjectsTests.swift */; };
 		D95FF76F1FAA1A270095845E /* UniqueObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF76D1FAA1A270095845E /* UniqueObjectsTests.swift */; };
 		D95FF7701FAA1A270095845E /* UniqueObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF76D1FAA1A270095845E /* UniqueObjectsTests.swift */; };
+		D95FF7721FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
+		D95FF7731FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
+		D95FF7741FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
+		D95FF7751FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
 		D9EAD7681FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
 		D9EAD7691FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
 		D9EAD76A1FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
@@ -80,6 +84,7 @@
 		AD2FAA261CD0B6D800659CF4 /* Incremental.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Incremental.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* IncrementalTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IncrementalTests.plist; sourceTree = "<group>"; };
 		D95FF76D1FAA1A270095845E /* UniqueObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueObjectsTests.swift; sourceTree = "<group>"; };
+		D95FF7711FAB28F30095845E /* WeakBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBox.swift; sourceTree = "<group>"; };
 		D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueObjects.swift; sourceTree = "<group>"; };
 		D9EAD76C1FAA0EE80047F48F /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		D9EAD7711FAA0F4A0047F48F /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
@@ -188,6 +193,7 @@
 				D9EAD76C1FAA0EE80047F48F /* Node.swift */,
 				D9EAD77B1FAA0F7F0047F48F /* Observer.swift */,
 				D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */,
+				D95FF7711FAB28F30095845E /* WeakBox.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -505,6 +511,7 @@
 				D9EAD7771FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
 				D9EAD7721FAA0F4A0047F48F /* Input.swift in Sources */,
 				D9EAD7681FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
+				D95FF7721FAB28F30095845E /* WeakBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +535,7 @@
 				D9EAD7791FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
 				D9EAD7741FAA0F4A0047F48F /* Input.swift in Sources */,
 				D9EAD76A1FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
+				D95FF7741FAB28F30095845E /* WeakBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +549,7 @@
 				D9EAD77A1FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
 				D9EAD7751FAA0F4A0047F48F /* Input.swift in Sources */,
 				D9EAD76B1FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
+				D95FF7751FAB28F30095845E /* WeakBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +563,7 @@
 				D9EAD7781FAA0F5E0047F48F /* BucketQueue.swift in Sources */,
 				D9EAD7731FAA0F4A0047F48F /* Input.swift in Sources */,
 				D9EAD7691FAA0ED10047F48F /* UniqueObjects.swift in Sources */,
+				D95FF7731FAB28F30095845E /* WeakBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
