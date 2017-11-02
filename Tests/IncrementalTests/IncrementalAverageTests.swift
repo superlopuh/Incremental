@@ -53,6 +53,7 @@ class IncrementalAverageTests: XCTestCase {
         var resultValue = 0.0
 
         let observer = myAverage.observe(onUpdate: { resultValue = $0 })
+        touch(observer)
 
         XCTAssertEqual(resultValue, 0.0)
 
