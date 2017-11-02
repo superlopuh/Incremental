@@ -32,6 +32,34 @@ extension Incremental {
 
 extension Incremental {
 
+    // Recomputes internal graph every time the result of the graph changes, rewrite
+    public static func flatMap<Value0, NewValue>(_ node0: Node<Value0>, _ transform: @escaping (Value0) -> Node<NewValue>) -> Node<NewValue> {
+        var _intermediate: Node<NewValue>? = nil
+        var _result: Node<NewValue>? = nil
+
+        let result = Node<NewValue>(
+            computeValue: { [weak _result] in
+                let intermediate = transform(node0.value)
+                _intermediate = intermediate
+                if let result = _result {
+                    intermediate.addHigherNode(result)
+                }
+                return intermediate.value
+            },
+            getMaxChildPseudoHeight: { _intermediate!.pseudoHeight }
+        )
+
+        node0.addHigherNode(result)
+
+        _result = result
+        _intermediate!.addHigherNode(result)
+        
+        return result
+    }
+}
+
+extension Incremental {
+
     public static func stabilize(inputsChanged: [InputBase]) {
         var queue = BucketQueue<NodeBase>()
 

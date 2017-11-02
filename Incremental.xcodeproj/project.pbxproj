@@ -22,6 +22,9 @@
 		D95FF7731FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
 		D95FF7741FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
 		D95FF7751FAB28F30095845E /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7711FAB28F30095845E /* WeakBox.swift */; };
+		D95FF7771FAB4EE20095845E /* IncrementalPrefixAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7761FAB4EE20095845E /* IncrementalPrefixAverageTests.swift */; };
+		D95FF7781FAB4EE20095845E /* IncrementalPrefixAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7761FAB4EE20095845E /* IncrementalPrefixAverageTests.swift */; };
+		D95FF7791FAB4EE20095845E /* IncrementalPrefixAverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF7761FAB4EE20095845E /* IncrementalPrefixAverageTests.swift */; };
 		D9EAD7681FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
 		D9EAD7691FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
 		D9EAD76A1FAA0ED10047F48F /* UniqueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */; };
@@ -85,6 +88,7 @@
 		AD2FAA281CD0B6E100659CF4 /* IncrementalTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IncrementalTests.plist; sourceTree = "<group>"; };
 		D95FF76D1FAA1A270095845E /* UniqueObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueObjectsTests.swift; sourceTree = "<group>"; };
 		D95FF7711FAB28F30095845E /* WeakBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakBox.swift; sourceTree = "<group>"; };
+		D95FF7761FAB4EE20095845E /* IncrementalPrefixAverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalPrefixAverageTests.swift; sourceTree = "<group>"; };
 		D9EAD7671FAA0ED10047F48F /* UniqueObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueObjects.swift; sourceTree = "<group>"; };
 		D9EAD76C1FAA0EE80047F48F /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		D9EAD7711FAA0F4A0047F48F /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 			children = (
 				8933C7891EB5B82A000D00A4 /* IncrementalTests.swift */,
 				D9EAD7801FAA0FF70047F48F /* IncrementalAverageTests.swift */,
+				D95FF7761FAB4EE20095845E /* IncrementalPrefixAverageTests.swift */,
 				D95FF76D1FAA1A270095845E /* UniqueObjectsTests.swift */,
 			);
 			name = Tests;
@@ -519,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95FF7771FAB4EE20095845E /* IncrementalPrefixAverageTests.swift in Sources */,
 				D9EAD7811FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */,
 				D95FF76E1FAA1A270095845E /* UniqueObjectsTests.swift in Sources */,
 				8933C7901EB5B82D000D00A4 /* IncrementalTests.swift in Sources */,
@@ -571,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95FF7781FAB4EE20095845E /* IncrementalPrefixAverageTests.swift in Sources */,
 				D9EAD7821FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */,
 				D95FF76F1FAA1A270095845E /* UniqueObjectsTests.swift in Sources */,
 				8933C78F1EB5B82C000D00A4 /* IncrementalTests.swift in Sources */,
@@ -581,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95FF7791FAB4EE20095845E /* IncrementalPrefixAverageTests.swift in Sources */,
 				D9EAD7831FAA0FF70047F48F /* IncrementalAverageTests.swift in Sources */,
 				D95FF7701FAA1A270095845E /* UniqueObjectsTests.swift in Sources */,
 				8933C78E1EB5B82C000D00A4 /* IncrementalTests.swift in Sources */,
