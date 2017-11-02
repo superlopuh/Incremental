@@ -1,5 +1,8 @@
 # Incremental
-Incremental computations in Swift
+
+Incremental computations in Swift.
+
+Inspired by [Jane Street's Incremental](https://blog.janestreet.com/introducing-incremental/), written in OCaml.
 
 ## TODO
 
