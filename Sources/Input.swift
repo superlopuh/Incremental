@@ -13,7 +13,7 @@ public class InputBase {
     }
 }
 
-public final class IncrementalInput<Value>: InputBase {
+public final class Input<Value>: InputBase {
 
     public var _value: Value
 
