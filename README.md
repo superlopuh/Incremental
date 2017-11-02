@@ -8,6 +8,7 @@ Inspired by [Jane Street's Incremental](https://blog.janestreet.com/introducing-
 
 - [ ] Add playground with examples
 - [ ] Only propagate input if output is observed
+- [ ] Flatmapped nodes are updated in the right order
 
 ## Purpose
 
