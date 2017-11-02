@@ -3,10 +3,10 @@ Incremental computations in Swift
 
 ## TODO
 
-[ ] Implement flatMap
-[ ] Remove memory cycles
-[ ] Add playground with examples
-[ ] Only propagate input if output is observed
+- [ ] Implement flatMap
+- [ ] Remove memory cycles
+- [ ] Add playground with examples
+- [ ] Only propagate input if output is observed
 
 ## Purpose
 
