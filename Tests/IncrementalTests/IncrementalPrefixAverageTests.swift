@@ -48,8 +48,6 @@ class IncrementalPrefixAverageTests: XCTestCase {
         XCTAssertEqual(26.5, resultValue)
     }
 
-
-
     static var allTests = [
         ("testIncrementalPrefixAverage", testIncrementalPrefixAverage),
     ]
